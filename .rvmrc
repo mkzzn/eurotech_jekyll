@@ -1,0 +1,9 @@
+install_on_use_flag=1
+rvm_trust_rvmrcs_flag=1
+rvm use 1.9.2-p180@mkzzn
+
+if [[ -s "/home/mz/.rvm/environments/ruby-1.9.2-p180@mkzzn" ]] ; then
+  . "/home/mz/.rvm/environments/ruby-1.9.2-p180@mkzzn"
+else
+  rvm --create use  "ruby-1.9.2-p180@mkzzn"
+fi
