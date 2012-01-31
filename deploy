@@ -1,0 +1,17 @@
+#!/bin/bash
+app_name=zopio-site
+tmp_path=/tmp/$app_name
+remote_path=/var/www/zopio
+remote_host=doblock
+
+# Add the necessary ssh key to the ssh-agent if it hasn't been added in this session
+ssh $remote_host "echo 2>&1" || ssh-add ~/.ssh/`echo $app_name`_dsa
+
+# Remove the temporary repository if one already exists
+[[ -d $tmp_path ]] && rm -rf $tmp_path
+
+# Clone the Git repository to a temporary path
+git clone zopio_github:zopio/$app_name.git $tmp_path
+
+# Sync the temporary repository clone with the remote repository
+rsync -avz -e ssh $tmp_path $remote_host:$remote_path

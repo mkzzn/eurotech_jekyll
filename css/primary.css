@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url("../images/bg/metal_dark.jpg");
+}
+
+  #container {
+      width: 966px;
+      margin: 20px auto;
+  }
+
+    #content {
+        margin: 0 auto 20px auto;
+    }
+
+      #content h1 {
+          font-family: "Open Sans", sans-serif;
+          color: white;
+          font-weight: normal;
+          font-size: 3.6em;
+          background: #111;
+          margin: 0;
+          padding: 20px;
+          opacity: 0.95;
+      }
+
+      #content h2 {
+          font-family: "Open Sans", sans-serif;
+          color: white;
+          font-weight: normal;
+          font-size: 2.1em;
+          margin: 20px 0 0 0;
+          padding: 12px 20px;
+          opacity: 0.98;
+          background: #14505A;
+      }
+
+      #content p {
+          font-family: "Open Sans", sans-serif;
+          color: black;
+          font-weight: normal;
+          font-size: 16px;
+          padding: 16px 20px;
+          margin: 0;
+          background: #ddd;
+          opacity: 0.8;
+      }
+      
+    #header {
+        text-align: center;
+        padding: 0;
+    }
+
+      #logo {
+          opacity: 1.0;
+          margin-left: 40px;
+      }
+
+        #logo #pg1000, #logo #eurotech {
+            float: left;
+        }
+            
+        #logo #eurotech {
+            margin: 40px 20px 20px 20px;
+            height: 200px;
+        }
+
+        #eurotech div {
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #bbb;
+            font-family: "Telex", sans-serif;
+         }
+
+    #navigation {
+        width: 966px;
+        margin: 0 auto;
+    }
+
+      #navigation a {
+          background: #111;
+          border-left: #111 1px solid;
+          opacity: 0.75;
+          float: left;
+          max-width: 138px;
+          height: 80px;
+          text-align: left;
+          border-left; 1px solid #000;
+          display: block;
+          text-decoration: none;
+          padding: 12px;
+        }
+
+      #navigation a:hover, #navigation a.active:hover {
+          opacity: 0.92;
+      }
+
+      #navigation a.active {
+          color: #018AA1;
+          opacity: 0.85;
+      }
+ 
+        #navigation a .link-title {
+            color: white;
+            font-size: 28px;
+            padding: 0 0 2px 0;
+            font-family: 'Telex', sans-serif;
+        }
+
+        #navigation a .link-summary {
+            color: #999;
+            font-size: 14px;
+            font-style: italic;
+            padding: 0 0 2px 0;
+            font-family: 'Telex', sans-serif;
+        }
+
+        #navigation a:hover .link-summary, #navigation a.active .link-summary {
+            color: #00B1CE;
+            font-size: 14px;
+            font-style: italic;
+            padding: 0 0 2px 0;
+            font-family: 'Telex', sans-serif;
+        }
+
+    #footer {
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        background: #111;
+        margin: 40px 0 0 0;
+        padding: 26px 40px;
+        opacity: 0.95;
+        line-height: 1.5em;
+    }
+
+      #footer h4 {
+          margin: 4px 0;
+          font-size: 16px;
+          font-family: "Telex", sans-serif;
+          font-weight: normal;
+      }
+
+      .footer-links {
+          width: 30%;
+          float: left;
+      }
+
+        .footer-links a {
+            font-size: 15px;
+            font-family: "Telex", sans-serif;
+            display: block;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .footer-links a.active {
+          color: #007689;
+        }
+
+        .footer-links a.active:hover, .footer-links a:hover {
+          color: #0096AE;
+        }
+
+.clear {
+    clear: both;
+}
