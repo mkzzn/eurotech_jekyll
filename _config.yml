@@ -20,3 +20,12 @@ navigation:
 - title: Contact
   summary: Corporate Offices and Representatives
   url: /contact.html
+
+javascript_compressor: closure
+
+javascripts:
+  application:
+
+stylesheets:
+  screen:
+    - _site/css/primary.css
