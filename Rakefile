@@ -34,6 +34,6 @@ end
 desc "Deploy latest code in _site to production"
 task :deploy do
   system(%{
-    rsync -avz --delete _site/ doblock2:/var/www/eurotech/
+    rsync -avz --delete _site/ mz@doblock2:/var/www/eurotech/
   })
 end
