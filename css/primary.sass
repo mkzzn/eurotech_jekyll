@@ -33,21 +33,34 @@ body
     padding: 12px 20px
     opacity: 0.98
     background: #14505A
-  p
+
+  .copy
     font-family: "Open Sans", sans-serif
     color: black
     font-weight: normal
     font-size: 16px
-    padding: 16px 20px
+    padding: 16px 28px
     margin: 0
     background: #ddd
     opacity: 0.8
 
+    img
+      padding: 20px 20px 12px 20px
+
+    &.left img
+      :float left
+    &.right img
+      :float right
+
+
 #products
   .product
     width: 46%
-    margin-right: 2%
     opacity: 1
+    float: left
+
+    &.left
+      margin-right: 7%
 
     h2
       font-size: 24px
@@ -57,13 +70,16 @@ body
       a
         margin-top: 8px
         float: right
-        font-size: 16px
-        font-weight: bold
+        margin-left: 14px
+        font-size: 15px
         font-family: "Telex", sans-serif
         color: white
         text-decoration: none
         &:hover
           text-decoration: underline
+
+        &.view
+          color: #ff0
 
     .body
       padding: 16px
