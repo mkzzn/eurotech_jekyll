@@ -13,7 +13,7 @@
     <meta name="expires" content="never" />
     <meta name="distribution" content="global" /><meta name="robots" content="index,follow" /><meta name="revisit-after" content="15 days" />
     
-    <title>PG 1000 Cutting Tool Inspection System by Euro Tech</title>
+    <title>PG 1000 Cutting Tool Inspection System by Euro-Tech | {{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" media="all" href="css/primary.css" />
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Cabin|Ubuntu|Cantarell|Open+Sans|Nobile|Telex' rel='stylesheet' type='text/css'>
@@ -39,7 +39,7 @@
 
       <div id="navigation">
         {% for link in site.navigation %}
-          <a href="{{ link.link_url }}" {% if page.url == link.page_url %}class="active" {% endif %}>
+          <a href="{{ link.url }}" {% if page.title == link.title %}class="active" {% endif %}>
             <div class="link-title">{{ link.title }}</div>
             <div class="link-summary">{{ link.summary }}</div>
           </a>
