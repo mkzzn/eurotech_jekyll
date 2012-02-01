@@ -176,7 +176,6 @@ body
 
 #register, #login
   margin-top: 20px
-  width: 46%
   background: #ddd
   opacity: 1
   font-size: 14px
@@ -186,23 +185,63 @@ body
   color: black
   font-weight: normal
 
-  label
-    display: block
+  .inputs
+    padding: 10px 20px 20px 0
+    width: 50%
+    float: left
 
-  input[type=text], input[type=password]
-    border: 1px solid #aaa
-    padding: 3px 6px
-    width: 240px
-    display: block
+    input[type=text], input[type=password]
+      border: 1px solid #aaa
+      padding: 3px 6px
+      width: 240px
+      margin-top: 4px
+
+    input[type=submit]
+      margin-top: 12px
+    
+  .labels
+    padding: 14px 20px 20px 20px
+    float: left
+    width: 30%
+    label
+      text-align: right
+      display: block
+      margin-bottom: 11px
 
   h2
     margin-top: 0
+    margin-bottom: 10px
 
 #register
   margin-right: 7%
-
+  width: 55%
   .description
     :margin-left 20px
+
+#login
+  width: 35%
+
+  .inputs
+    width: 50%
+
+    input[type=text], input[type=password]
+      width: 200px
+
+    input[type=submit]
+      margin-top: 12px
+      display: block
+
+    a
+      display: block
+      margin-top: 8px
+      color: #007689
+  .labels
+    width: 20%
+    label
+      text-align: right
+      display: block
+      margin-bottom: 11px
+
 
 #footer
   font-family: "Open Sans", sans-serif
