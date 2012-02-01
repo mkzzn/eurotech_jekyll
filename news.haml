@@ -1,15 +1,67 @@
 ---
 layout: default
-title: News
+title: Home
 ---
 
-%h1 What's New?
-%h2 Product Development
-.copy
-  %p
-    Tempus eleifend, varius nulla molestie ut elit dictum sollicitudin, sapien maecenas duis iaculis vestibulum eleifend. Lacus consectetuer in consectetuer, montes eu quis, nemo id quam aenean in, mauris viverra hendrerit sed etiam. Massa arcu adipiscing proin mollis dui, ornare sodales aliquam sed ut, nulla quis parturient ultricies volutpat at risus, eget ipsum habitasse sed ante enim, nulla sollicitudin mauris pellentesque lorem est. Nec amet libero morbi libero sociis ut, eleifend wisi pellentesque, erat morbi id sapien, hendrerit vestibulum mauris sed in auctor lacinia, diam viverra. Turpis nonummy et inceptos ipsum, exercitationem nec consectetuer. In lorem venenatis nulla et eu eu, quia consectetuer porttitor mauris et est. Suspendisse risus mauris aliquet curabitur, quis integer, et leo neque sem massa pede, fermentum luctus. Blandit dignissim conubia eleifend, pede felis, neque est.
+%h1 Downloads
+#register
+  %h2 Register
+  %form
+    .input_pair
+      %label{:for => "name"} Name
+      %input{:type => "text", :name => "name"}
+    .input_pair
+      %label{:for => "company"} Company
+      %input{:type => "text", :name => "company"}
+    .input_pair
+      %label{:for => "address1"} Address1
+      %input{:type => "text", :name => "address1"}
+    .input_pair
+      %label{:for => "address2"} Address2
+      %input{:type => "text", :name => "address2"}
+    .input_pair
+      %label{:for => "city"} City
+      %input{:type => "text", :name => "city"}
+    .input_pair
+      %label{:for => "state"} State
+      %input{:type => "text", :name => "state"}
+    .input_pair
+      %label{:for => "zip"} Zip Code
+      %input{:type => "text", :name => "zip"}
+    .input_pair
+      %label{:for => "country"} Country
+      %input{:type => "text", :name => "country"}
+    .input_pair
+      %label{:for => "phone"} Phone
+      %input{:type => "text", :name => "phone"}
+    .input_pair
+      %label{:for => "fax"} Fax
+      %input{:type => "text", :name => "fax"}
+    .input_pair
+      %label{:for => "email"} Email
+      %input{:type => "text", :name => "email"}
+    .input_pair
+      %label{:for => "username"} Username
+      %input{:type => "text", :name => "username"}
+    .input_pair
+      %label{:for => "password"} Password
+      %input{:type => "password", :name => "password"}
+    .input_pair
+      %label{:for => "confirm_password"} Confirm Password
+      %input{:type => "password", :name => "confirm_password"}
+    .input_pair
+      %input{:type => "submit"} Submit Info
 
-%h2 Visit Us at Quality Expo 2011
-.copy
-  %p
-    Vivamus quis porttitor, quisque elit integer, at non, in amet. Vehicula orci tempor tellus est qui, vel auctor vivamus augue risus, penatibus enim ultrices wisi vestibulum. Gravida nec inceptos a suscipit nec, non eros magna enim dui ultricies. Ligula mus sollicitudin tenetur suscipit enim, pretium lacus suspendisse pretium sociosqu quis, est vestibulum aliquam et maecenas aliquam. Fusce orci nisl nullam ut, fusce luctus sollicitudin ut quam at dolor.
+#login
+  %h2 Login
+  %form
+    .input_pair
+      %label{:for => "username"} Username
+      %input{:type => "text", :name => "username"}
+    .input_pair
+      %label{:for => "password"} Password
+      %input{:type => "password", :name => "password"}
+    .input_pair
+      %input{:type => "submit"} Submit Info
+    .input_pair
+      %a{:href => "forgot_password.html"} Forgot Your Password?

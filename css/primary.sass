@@ -53,8 +53,8 @@ body
       :float right
 
 
-#products
-  .product
+#products, #news
+  .product, .news
     width: 46%
     opacity: 1
     float: left
@@ -70,14 +70,17 @@ body
         float: left
         padding: none
         margin: none
+        
+      .links
+        float: right
+        text-align: right
+
       .model
         color: #92CFD8
         font-size: 12px
         font-weight: normal
 
       a
-        margin-top: 8px
-        float: right
         margin-left: 14px
         font-size: 15px
         font-family: "Telex", sans-serif
@@ -170,6 +173,28 @@ body
       font-style: italic
       padding: 0 0 2px 0
       font-family: 'Telex', sans-serif
+
+.body
+  padding: 16px
+  margin: 0
+  background: #ddd
+  opacity: 1
+
+  img
+    float: left
+    margin: 10px 16px 0 20px
+
+  .container
+    font-size: 14px
+    padding: none
+    float: left
+    opacity: 1
+    font-family: "Open Sans", sans-serif
+    color: black
+    font-weight: normal
+
+  .description
+    :margin-left 20px
 
 #footer
   font-family: "Open Sans", sans-serif

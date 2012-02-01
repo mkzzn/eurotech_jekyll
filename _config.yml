@@ -4,22 +4,22 @@ pygments: true
 navigation:
 - title: Home
   summary: About the PG 1000
-  url: /
+  url: ./
 - title: Products
   summary: View the entire PG product line
-  url: /products.html
+  url: products.html
 - title: Literature
   summary: Information and spec sheets
-  url: /literature.html
+  url: literature.html
 - title: News
   summary: What's going on in our labs
-  url: /news.html
+  url: news.html
 - title: Downloads
   summary: Software demos and updates
-  url: /downloads.html
+  url: downloads.html
 - title: Contact
   summary: Corporate Offices and Representatives
-  url: /contact.html
+  url: contact.html
 
 javascript_compressor: closure
 
