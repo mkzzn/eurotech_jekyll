@@ -39,10 +39,13 @@ body
     color: black
     font-weight: normal
     font-size: 15px
-    padding: 18px 32px
+    padding: 8px 32px 18px 32px
     margin: 0
     background: #ddd
     opacity: 0.9
+
+    p
+      margin-top: 10px
 
     img
       padding: 20px 20px 12px 20px
@@ -51,6 +54,23 @@ body
       :float left
     &.right img
       :float right
+
+  .content
+    :float left
+    &.large
+      width: 59%
+      margin-right: 4%
+    &.small
+      width: 37%
+
+    .copy
+      height: 600px
+
+    img
+      padding: 16px 20px 8px  0
+
+    h2
+      font-size: 28px
 
 
 #products, #news
@@ -275,9 +295,10 @@ body
       color: #0096AE
 
   &.pages
-    padding: 10px 32px 5px 32px
+    background: #000
+    padding: 8px 24px
   &.links
-    padding: 5px 32px 10px 32px
+    padding: 8px 24px
 
 .clear
   clear: both
