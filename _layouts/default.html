@@ -22,17 +22,7 @@
   <body>
     <div id="container">
       <div id="header">
-        <div id="logo">
-          <div id="pg1000">
-            <img src="images/pg1000_shadow.png" width="430"/>
-          </div>
-          <div id="eurotech">
-            <div id="product_by">a product by</div>
-            <img src="images/euro_tech_logo.png" width="200"/>
-          </div>
-        </div>
-        <div id="banner">
-        </div>
+        <img src="images/pg1000_header_offset.png"/>
       </div>
       <div class="clear"></div>
 
@@ -53,22 +43,18 @@
       </div>
 
       <div id="footer">
-        <div class="footer-links">
-          <h4>Links</h4>
+        <div class="footer-links pages">
+          {% for link in site.navigation %}
+            <a href="{{ link.url }}" {% if page.title == link.title %}class="active" {% endif %}>
+              {{ link.title }}
+            </a>
+          {% endfor %}
+        </div>
+
+        <div class="footer-links links">
           <a href="terms.html">Terms and Conditions</a>
           <a href="rental_agreement.html">Reticle Rental Agreement</a>
           <a href="users_list.html">PG 1000 Users List</a>
-        </div>
-
-        <div class="footer-links">
-          <h4>Pages</h4>
-          <a href="/" class="active">Home</a>
-          <a href="products.html">Products</a>
-          <a href="literature.html">Literature</a>
-          <a href="products.html">Products</a>
-          <a href="news.html">News</a>
-          <a href="downloads.html">Downloads</a>
-          <a href="contact.html">Contact</a>
         </div>
 
         <div class="clear"></div>

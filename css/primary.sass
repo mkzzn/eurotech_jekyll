@@ -11,10 +11,10 @@ body
 
 #container
   width: 966px
-  margin: 20px auto
+  margin: 0 auto 0 auto
 
 #content
-  margin: 0 auto 20px auto
+  margin: 0 auto
   h1
     font-family: "Open Sans", sans-serif
     color: white
@@ -90,7 +90,8 @@ body
           text-decoration: underline
 
         &.view
-          color: #ff0
+          //color: #ff0
+          color: #FFFF4A
 
     .body
       padding: 0 16px 16px 16px
@@ -115,14 +116,18 @@ body
         :margin-left 20px
         
 #header
-  text-align: center
   padding: 0
-  height: 100px
+  margin: 0
+  height: 200px
+  text-align: right
+
+  img
+    margin: 0
+    
 
 #logo
   opacity: 1.0
   #pg1000
-    margin-top: 12px
     margin-left: 180px
     float: left
   #eurotech
@@ -167,7 +172,8 @@ body
       padding: 0 0 2px 0
       font-family: 'Telex', sans-serif
     &:hover .link-summary, &.active .link-summary
-      color: #00B1CE
+      //color: #00B1CE
+      color: #FFFF4A
       font-size: 14px
       font-style: italic
       padding: 0 0 2px 0
@@ -245,25 +251,21 @@ body
 #footer
   font-family: "Open Sans", sans-serif
   color: white
-  background: #111
   margin: 40px 0 0 0
-  padding: 26px 40px
-  opacity: 0.95
-  line-height: 1.5em
-  h4
-    margin: 4px 0
-    font-size: 16px
-    font-family: "Telex", sans-serif
-    font-weight: normal
 
 .footer-links
-  width: 30%
+  background: #111
+  opacity: 0.95
+  line-height: 1.5em
+  width: 930px
+
   float: left
   a
     font-size: 15px
     font-family: "Telex", sans-serif
-    display: block
+    float: left
     color: #666
+    margin-right: 60px
     text-decoration: none
     &.active
       color: #007689
@@ -271,6 +273,11 @@ body
         color: #0096AE
     &:hover
       color: #0096AE
+
+  &.pages
+    padding: 10px 32px 5px 32px
+  &.links
+    padding: 5px 32px 10px 32px
 
 .clear
   clear: both

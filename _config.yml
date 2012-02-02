@@ -8,9 +8,6 @@ navigation:
 - title: Products
   summary: View the entire PG product line
   url: products.html
-- title: Literature
-  summary: Information and spec sheets
-  url: literature.html
 - title: News
   summary: What's going on in our labs
   url: news.html
