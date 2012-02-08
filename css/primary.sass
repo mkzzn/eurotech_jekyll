@@ -58,10 +58,13 @@ body
   .content
     :float left
     &.large
-      width: 59%
-      margin-right: 4%
+      width: 580px
+      // 59%
+      margin-right: 40px
+      // 4%
     &.small
-      width: 37%
+      width: 346px
+      // 37%
 
     .copy
       height: 600px
@@ -144,35 +147,33 @@ body
       height: 360px
     
 #header
-  padding: 0
+  padding: 20px 0
   margin: 0
-  height: 200px
+  height: 160px
+  width: 966px
   text-align: left
 
   img
     margin: 0
     
-
-#logo
-  opacity: 1.0
-
-  #pg1000
-    margin-left: 180px
+  #pg1000_logo
     float: left
 
-  #eurotech
-    float: left
-
-#eurotech div
-  margin-bottom: 12px
-  font-size: 14px
-  color: #bbb
-  font-family: "Telex", sans-serif
+  #eurotech_logo
+    float: right
+    margin-top: 50px
 
 #navigation
   width: 966px
   margin: 0 auto
 
+  .filler
+    width: 7px
+    display: block
+    height: 104px
+    background: #111
+    opacity: 0.75
+    float: left
   a
     background: #111
     border-left: #111 1px solid
@@ -184,7 +185,7 @@ body
     border-left: 1px solid #000
     display: block
     text-decoration: none
-    padding: 12px
+    padding: 12px 28px
 
     &:hover
       opacity: 0.92
@@ -312,7 +313,7 @@ body
   background: #111
   opacity: 0.95
   line-height: 1.5em
-  width: 930px
+  width: 966px
 
   float: left
   a
@@ -320,7 +321,6 @@ body
     font-family: "Telex", sans-serif
     float: left
     color: #666
-    margin-right: 60px
     text-decoration: none
     &.active
       color: #007689
@@ -331,9 +331,13 @@ body
 
   &.pages
     background: #000
-    padding: 8px 24px
+    padding: 8px 0
+    a
+      margin-left: 109px
   &.links
-    padding: 8px 24px
+    padding: 8px 0
+    a
+      margin-left: 116px
 
 .clear
   clear: both
