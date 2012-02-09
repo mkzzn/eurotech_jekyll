@@ -3,18 +3,23 @@ pygments: true
 
 navigation:
 - title: Home
+  class: home
   summary: About the PG 1000
   url: ./
 - title: Products
+  class: products
   summary: View the entire PG product line
   url: products.html
 - title: News
+  class: news
   summary: What's going on in our labs
   url: news.html
 - title: Downloads
+  class: downloads
   summary: Software demos and updates
   url: downloads.html
 - title: Contact
+  class: contact
   summary: Corporate Offices and Representatives
   url: contact.html
 
