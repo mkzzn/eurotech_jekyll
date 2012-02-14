@@ -14,6 +14,10 @@ navigation:
   class: news
   summary: What's going on in our labs
   url: news.html
+- title: Software
+  class: software
+  summary: Cutting-edge user interfaces
+  url: software.html
 - title: Downloads
   class: downloads
   summary: Software demos and updates
